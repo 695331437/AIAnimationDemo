@@ -22,6 +22,8 @@
     //添加手势
     UIPanGestureRecognizer *panGest =  [[UIPanGestureRecognizer alloc]initWithTarget:self action:@selector(handGesture:)];
     [showView addGestureRecognizer:panGest];
+    
+    NSLog(@"xxxxxxx我的");
 }
 
 - (void)handGesture:(UIPanGestureRecognizer*)recognizer{
